@@ -3,7 +3,7 @@ name: rails                                  # workflow name
 on:
   push:
     branches:                                 # similar to "only" in GitLab
-      - main
+      - main30
 
 jobs:
   build:
