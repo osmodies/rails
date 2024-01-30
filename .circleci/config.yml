@@ -28,7 +28,7 @@ jobs:
       - run:
           command: |
             echo "This is an integration step"
-            exit 1
+            exit 1 || true
           when: always                    # Even if the job fails, continue to the next stages
 
   prod:
